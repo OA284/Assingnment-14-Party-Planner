@@ -1,0 +1,180 @@
+.home{
+    background-image: url(./../image/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.red{
+    width: 100%;
+    background-color: rgba(214, 51, 32, 0.5);
+}
+.home .red h1{
+    font-size: 60px;
+}
+
+.home .side{
+    width: 20%;
+}
+
+.side i{
+    color: white;
+    font-size: 25px;
+    margin: 40px 0 0 80%;
+}
+
+.button{
+    top: 50%;
+    left: -269.797px;
+    cursor: pointer;
+    display: block;
+}
+.button i{
+    font-size: 28px;
+    color: white;
+    margin-left: 280px;
+    letter-spacing: 5px;
+}
+
+.side{
+    top: 0;
+    left: -269.797px;
+    z-index: 9999999;
+}
+.navbar ul li a{
+    font-size: 25px;
+}
+
+.navbar ul li a:hover,
+.side i:hover{
+    color: rgb(90, 26, 29) !important;
+}
+
+/* ----------------------------------- */
+
+section.singers{
+    margin: 7% 0;
+}
+.accordion-button{
+    background-color: rgb(230, 129, 132) !important;
+    color: white !important;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left:40%;
+}
+.accordion-button::after{
+    content: "";
+    margin-left: 0;
+    width: 0;
+}
+.accordion-body{
+    background-color: rgb(204, 204, 204);
+    text-align: center;
+}
+
+/* .singers .singer{
+    height: 60px;
+    background-color: rgb(230, 129, 132) !important;
+}
+.singers .singer .p{
+    background-color: rgb(204, 204, 204);
+    display: none;
+    margin-bottom: 200px;
+} */
+
+/* ----------------------------------------------- */
+
+.timer{
+    width: 100%;
+    height: 330px;
+    margin-bottom: 7%;
+    background-image: url(./../image/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+}
+
+.timer .red .details{
+    width: 85%;
+    height: 50%;
+    border: dashed 1px rgb(245, 151, 148);
+}
+.timer .red .details .days{
+    width: 22%;
+    border: solid 1px white;
+    color: white;
+}
+.timer .red .details .days h1 span{
+    font-size: 30px;
+}
+
+/* --------------------------------------------------- */
+.contact{
+    margin: 15% 0 7% 0;
+}
+.contact .h1{
+    margin-left: 100px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.contact .info{
+    width: 80%;
+}
+.contact .info .partOne,
+.contact .info .partTwo{
+    width: 50%;
+    padding-bottom: 5%;
+}
+@media (max-width:770px){
+    .contact .info .partOne,
+    .contact .info .partTwo{
+        width: 100%;
+        padding-bottom: 5%;
+    }
+}
+.contact .info .partOne p{
+    color: rgb(153, 153, 153);
+}
+.contact .info .partOne .logos span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    color: rgb(153, 153, 153);
+}
+.contact .info .partOne .logos span p.mail{
+    color: rgb(214, 46, 51);
+}
+
+.contact .partOne .socialMedia i{
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: solid 1px rgb(153, 153, 153);
+    color: rgb(153, 153, 153);
+    padding: 12px;
+}
+.contact .partOne .socialMedia i.fa-facebook-f,
+.contact .partOne .socialMedia i.fa-pinterest-p{
+    padding: 12px 15px;
+}
+
+.contact .partOne .socialMedia i:hover{
+    background-color: rgb(214, 46, 51);
+    color: white;
+}
+
+.form-control,
+.contact .btn{
+    border-radius: 0px;
+}
+.contact .partTwo h6 span{
+    color: rgb(214, 46, 51);
+    font-size: 20px;
+}
+.contact .partTwo button{
+    background-color: rgb(214, 46, 51);
+    color: white;
+    padding: 10px 20px;
+}
